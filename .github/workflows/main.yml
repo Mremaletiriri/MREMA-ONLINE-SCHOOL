@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online School</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            color: #666;
+        }
+        .container {
+            margin: 20px;
+        }
+        .repository {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .sub-repository {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Online School</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#primary">Primary Online School</a></li>
+            <li><a href="#secondary">Secondary Online School</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="primary">
+            <h2>Primary Online School</h2>
+            <div class="repository">
+                <h3>Class 1</h3>
+                <div class="sub-repository">
+                    <h4>Subjects</h4>
+                    <ul>
+                        <li>Mathematics</li>
+                        <li>English</li>
+                        <li>Kiswahili</li>
+                        <li>Science</li>
+                        <li>Social Science</li>
+                        <li>Sports and Games</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="secondary">
+            <h2>Secondary Online School</h2>
+            <div class="repository">
+                <h3>Form 1</h3>
+                <div class="sub-repository">
+                    <h4>Subjects</h4>
+                    <ul>
+                        <li>English</li>
+                        <li>Mathematics</li>
+                        <li>Kiswahili</li>
+                        <li>Biology</li>
+                        <li>Chemistry</li>
+                        <li>Physics</li>
+                        <li>History</li>
+                        <li>Civics</li>
+                        <li>Geography</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Similarly, add sections and sub-repositories for other forms -->
+        </section>
+    </div>
+</body>
+</html>
